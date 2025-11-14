@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Trade Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Market Trade Analysis</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gold">Gold</a></li>
+                <li><a href="#silver">Silver</a></li>
+                <li><a href="#contact">Share with Client</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Market Overview</h2>
+        <p>We analyze global markets, focusing on commodities like gold and silver. Our insights help traders make informed decisions.</p>
+        <div id="market-summary">
+            <!-- Dynamic data will load here -->
+        </div>
+    </section>
+    
+    <section id="gold">
+        <h2>Gold Analysis</h2>
+        <p>Current Price: <span id="gold-price">Loading...</span></p>
+        <p>Analysis: Gold is a safe-haven asset, often rising during economic uncertainty. Recent trends show [insert analysis, e.g., up 5% due to inflation fears].</p>
+        <img src="images/gold-chart.png" alt="Gold price chart" width="400">
+    </section>
+    
+    <section id="silver">
+        <h2>Silver Analysis</h2>
+        <p>Current Price: <span id="silver-price">Loading...</span></p>
+        <p>Analysis: Silver tracks industrial demand and gold prices. It's undervalued compared to gold, with potential upside in tech sectors.</p>
+        <img src="images/silver-chart.png" alt="Silver price chart" width="400">
+    </section>
+    
+    <section id="contact">
+        <h2>Share Details with Client</h2>
+        <form id="share-form">
+            <label for="client-email">Client Email:</label>
+            <input type="email" id="client-email" required>
+            <label for="report">Report Summary:</label>
+            <textarea id="report" rows="4" placeholder="Enter analysis details..."></textarea>
+            <button type="submit">Send Report</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Market Trade Analysis. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
